@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 20px;
+}
+
+.navbar-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 10px;
+}
+
+.navbar-top .navbar-brand{
+    font-size: 150%;
+    padding: 10px 0px;
+    font-weight: bold;
+}
+
+.navbar-top .navbar-brand:hover
+{
+  
+    font-size: 151%;
+}
+
+
+.dekho{
+    color: #d8232a;
+}
+
+.navbar-top > .nav-items{
+    list-style-type: none;
+    display: flex;
+}
+
+.navbar-top .nav-items .nav-link{
+    padding: 10px 20px;
+    font-size: 85%;
+    transition: all .2s;
+}
+
+.navbar-top .nav-items .nav-link:hover{
+    font-size: 86%;
+    font-weight: bold;
+}
+
+.navbar-top > .side-buttons button{
+    height: 40px;
+    margin: 0 3px;
+    padding: 10px 20px;
+}
+
+.navbar-top > .side-buttons button:hover{
+   background-color: #c74c50;
+}
+
+
+.navbar-top > .side-buttons .post-property-btn{
+  background-color: #d8232a;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+
+.navbar-top > .side-buttons .sign-in-btn{
+    padding: 0 20px;
+  }
+
+
+.navbar-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #d8232a;
+    padding: 10px;
+}
+
+.navbar-bottom input[type=text],select{
+    margin-right: 8px;
+    border: none;
+    border-radius: 20px;
+    padding: 0 10px;
+
+}
+
+.navbar-bottom input[type=text]{
+    height: 35px;
+    /* width: 20%; */
+    /* position: relative; */
+    
+}
+
+.navbar-bottom .search-input{
+    margin-right: 8px;
+    padding: 0 10px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.navbar-bottom .search-icon{
+    position: relative;
+}
+
+.navbar-bottom input[type=text]:focus{
+    outline: none;
+}
+
+
+.navbar-bottom select{
+    height: 35px;
+    width: 9%;
+}
+
+.navbar-bottom select:focus{
+    outline: none;
+}
