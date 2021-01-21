@@ -1,0 +1,136 @@
+.room-container{
+    background-color:#fff;
+    display: flex;
+    align-items:center;
+    padding: 20px 0;
+    border-bottom: 2px solid rgb(223, 208, 208);
+}
+
+.left-section{
+    flex: .3;
+}
+
+.right-section{
+   flex: .7;
+   display: flex;
+   flex-direction: column;
+   /* justify-content: center; */
+   padding-left: 10px;
+}
+
+.right-section >*{
+    padding: 2px;
+}
+
+.room-container .room-img{
+    width: 100%;
+}
+
+.right-section .room-price .price{
+    color: red;
+    font-weight: bold;
+    font-size: 120%;
+}
+
+.right-section .room-price .sharing{
+    font-size: 80%;
+    color: grey;
+    padding: 0 5px;
+    padding-right: 25px;
+}
+
+.right-section .room-price .for{
+    font-size: 70%;
+    padding: 0 10px;
+}
+
+.right-section .room-heading .type{
+    color: black;
+
+}
+
+.right-section .room-heading{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+
+.right-section .room-heading .location{
+    color: grey;
+    font-size: 90%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 10px;
+    /* align-items: center; */
+}
+
+.right-section .room-heading .location .loc-icon{
+    color: green;
+}
+
+
+.right-section .room-detail{
+    display: flex;
+    flex-direction: column;
+}
+.right-section .room-detail .sharing{
+    color: gray;
+    font-size: 80%;
+}
+
+.right-section .room-detail .price{
+    font-size: 85%;
+}
+
+.right-section .room-facilities{
+    display: flex;
+}
+
+.right-section .room-facilities .key-facilities{
+    font-size: 80%;
+    color: gray;
+    margin-right: 5px;
+}
+
+.right-section .room-facilities .icon{
+    margin: 0 4px;
+}
+
+.right-section .room-description p{
+    font-size: 85%;
+    color: gray;
+    padding-bottom: 5px;
+}
+
+
+.right-section .room-description p a{
+    /* font-size: 85%; */
+    color: rgb(87, 86, 86);
+    text-decoration: underline;
+}
+
+.right-section .room-btns .view-btn, .contact-btn{
+    height: 38px;
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+}
+.right-section .room-btns .view-btn{
+    margin-right: 5px;
+    background-color: #d8232a;
+    color: #fff;
+}
+
+.right-section .room-btns .contact-btn{
+    color: #d8232a;
+}
+
+.right-section .room-btns .contact-btn:hover{
+    background-color:  #f00b12;
+    color: #fff;
+}
+
+.right-section .room-btns .view-btn:hover{
+    background-color:  #f00b12;
+}
+

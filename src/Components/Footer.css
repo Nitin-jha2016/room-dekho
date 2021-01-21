@@ -1,0 +1,43 @@
+.footer-container{
+    padding: 20px 150px;
+    padding-bottom: 50px;
+}
+
+.footer-section-top p{
+    margin-top: 20px;
+    font-size: 90%;
+    color: gray;
+}
+
+.footer-section-top div{
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.footer-section-top .navbar-buttons{
+    margin-right: 50px;
+}
+
+.footer-section-top .navbar-links >*{
+    margin-right: 20px;
+    font-size: 150%;
+}
+
+.navbar-buttons img{
+    height: 40px;
+    margin-right: 10px;
+    /* margin-top: 20px; */
+}
+
+.footer-section-bottom .footer-navbar{
+    display: flex;
+    justify-content: center;
+}
+
+.footer-section-bottom .footer-navbar a{
+    padding: 0 20px;
+    color: rgb(85, 79, 79);
+    font-size: 80%;
+}
+

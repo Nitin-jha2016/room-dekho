@@ -51,10 +51,13 @@ html{
     height: 40px;
     margin: 0 3px;
     padding: 10px 20px;
+    border-radius: 5px;
 }
 
 .navbar-top > .side-buttons button:hover{
-   background-color: #c74c50;
+    background-color: rgb(236, 27, 27);
+    color: #fff;
+    border: none;
 }
 
 
@@ -62,7 +65,7 @@ html{
   background-color: #d8232a;
   color: #fff;
   border: none;
-  border-radius: 5px;
+
 }
 
 .navbar-top > .side-buttons .sign-in-btn{
